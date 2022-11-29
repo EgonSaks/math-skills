@@ -71,6 +71,8 @@ Run the script with `./math-skills`, in current working directory it generates `
 
 On `Mac OS` you need to have docker installed to run math-skills file while math-skills file is compiled in another environment.
 
+Run through terminal in current working directory where you have the `main.go` files etc
+
 ```
 docker run -v $PWD:/program/ -it --entrypoint sh alpine
 ```
